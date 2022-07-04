@@ -1,6 +1,6 @@
 # Taller de Aprendizaje Automático en GCP con BigQuery
 
-[![NDS](https://github.com/langheran/TESE2022/raw/main/images/nds.png)](https://ndscognitivelabs.com/) [![TESE](https://github.com/langheran/TESE2022/raw/main/images/logo.png)](https://www.TESE.ndscognitivelabs.com/)
+[![NDS](https://github.com/langheran/TESE2022/raw/main/images/nds.png)](https://ndscognitivelabs.com/) <a href="https://www.facebook.com/SMITEIMYT"><img src="https://github.com/langheran/TESE2022/raw/main/images/logo.png" width="200"></a>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/langheran/TESE2022) [![Repo Size](https://img.shields.io/github/repo-size/langheran/TESE2022.svg)](https://github.com/langheran/TESE2022/README.md)
 -----------------
