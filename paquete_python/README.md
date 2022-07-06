@@ -84,3 +84,9 @@ Una vez que el paquete ha sido creado, es posible usarlo dentro de otro módulo.
     ```
     {'Nombre': 'Rubén', 'Apellido': 'Raya', 'Intereses': 'Amazon Alexa'}
     ```
+   3. Si está en windows también puedes ejecutar el siguiente comando
+    ```
+    hola-tese --msgbox "Hola TESE"
+    ```
+   4. El resultado debe ser
+    ![msgbox](./images/msgbox.png)
