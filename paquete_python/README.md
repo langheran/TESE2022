@@ -90,4 +90,4 @@ Una vez que el paquete ha sido creado, es posible usarlo dentro de otro módulo.
     ```
    4. El resultado debe ser
    
-    ![msgbox](./images/msgbox.png)
+      ![msgbox](./images/msgbox.png)
