@@ -14,7 +14,12 @@ except:
 # %%
 # Reinstalamos el módulo
 
-%sx pip install .[dev] --force-reinstall
+%sx pip install .[dev]
+
+# %%
+# Reinstalamos el módulo sin dependencias
+
+%sx pip install .[dev] --force-reinstall --no-deps
 
 # %%
 # En caso de querer desarrollar al mismo tiempo que debugueamos, es posible cargar el módulo en modo editable

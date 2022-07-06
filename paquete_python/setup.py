@@ -1,5 +1,8 @@
 from distutils.core import setup, Extension
 from distutils.util import convert_path
+import platform
+
+ostype = platform.system().lower()
 
 main_ns = {}
 init_path = convert_path('src/__init__.py')
@@ -13,20 +16,30 @@ setup(
     name = 'miModulo',
     version = main_ns['__version__'],
     ext_package='miModulo',
-    ext_modules = [Extension('CInterface', ['src/CInterface/test.c'])],
-    py_modules=['version'],
+    ext_modules = (
+        [Extension('CInterface', ['src/CInterface/test.c'])]
+        if ostype == 'windows'
+        else []
+    ),  # opcional
     packages=[
         'miModulo',
-        'miModulo.PythonInterface'
+        'miModulo.PythonInterface',
+        'miModulo.CommandLineInterface'
     ],
     package_dir={
         'miModulo': 'src',
-        'miModulo.PythonInterface': 'src/PythonInterface'
+        'miModulo.PythonInterface': 'src/PythonInterface',
+        'miModulo.CommandLineInterface': 'src/CommandLineInterface'
     },
     package_data={'miModulo.PythonInterface': ['data/*.csv']},
     install_requires=[
-        "pandas"
+        "Click",
+        "pandas",
     ],
+    entry_points='''
+        [console_scripts]
+        hola-tese=miModulo.CommandLineInterface:cli
+    ''',
     extras_require = {
        'dev': ['pycodestyle'],
    },
