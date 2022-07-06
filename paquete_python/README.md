@@ -69,4 +69,8 @@ Una vez que el paquete ha sido creado, es posible usarlo dentro de otro módulo.
    miModulo[dev] @ git+https://git@github.com/langheran/TESE2022.git@main#subdirectory=paquete_python
    ```
 6. Ejecutar `pip install -r requirements.txt`
-7. Verificar que el paquete se haya instalado correctamente
+7. También es posible instalar este requerimiento con `pip`
+   ```
+   pip install git+https://git@github.com/langheran/TESE2022.git@main#subdirectory=paquete_python
+   ```
+8. Verificar que el paquete se haya instalado correctamente
