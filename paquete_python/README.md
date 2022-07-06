@@ -89,4 +89,5 @@ Una vez que el paquete ha sido creado, es posible usarlo dentro de otro módulo.
     hola-tese --msgbox "Hola TESE"
     ```
    4. El resultado debe ser
+   
     ![msgbox](./images/msgbox.png)
