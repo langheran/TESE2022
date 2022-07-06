@@ -24,7 +24,7 @@ Cómo usar este paquete:
 2. Activar el virtual env con `call .\venv\Scripts\activate.bat` o `source ./venv/bin/activate`
 3. Construir con el comando `python setup.py build`
 4. Instalar el paquete con `python setup.py install` o con `pip install .[dev] --force-reinstall`
-   1. Estas pruebas se encuentran en el [Jupyter Interactive](./test.py) que abriremos en `vscode`
+   1. Estas pruebas se encuentran en el [Jupyter Interactive](./test.py) que abriremos en [vscode](http://code.visualstudio.com/docs/python/jupyter-support-py)
 
 Una vez que el paquete ha sido creado, es posible usarlo dentro de otro módulo. Para ello haremos lo siguiente.
 
