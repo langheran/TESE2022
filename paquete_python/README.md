@@ -16,10 +16,12 @@ Estos son los cheatsheets recomendados para `Python`, `pandas`, `matplotlib`.
 
 A continuación por favor abrir el siguiente notebook para una breve introducción a Jupyter.
 
+<br/>
 <div class="devsite-table-wrapper"><table class="tfo-notebook-buttons" align="left">
 <td><a target="_blank" href="https://colab.research.google.com/github/langheran/TESE2022/blob/main/intro.ipynb">
 <img src="https://www.tensorflow.org/images/colab_logo_32px.png">Abrir en Google Colab</a></td>
 </table></div>
+<br/>
 
 ## Empaquetado y Extensión de módulo en Python
 
@@ -34,10 +36,10 @@ Lo vamos a hacer local. Para esto necesitas instalar:
 - [git](https://github.com/git-guides/install-git)
 - instalar `pip install virtualenv`
   - opcionalmente activar el ambiente `miniconda` o trabajar en el ambiente `(base)`
-  ```
-  conda create --name tese
-  conda activate tese
-  ```
+    ```
+    conda create --name tese
+    conda activate tese
+    ```
 - Descargar el repo localmente con el comando `git clone https://github.com/langheran/TESE2022.git`
 
 Si estás en windows, compilaremos nuestro módulo en C y usaremos algo de la librería `<windows.h>` por lo tanto necesitas tener este requerimiento también.
@@ -65,12 +67,20 @@ Una vez que el paquete ha sido creado, es posible usarlo dentro de otro módulo.
 3. En esta carpeta crear un nuevo `virtualenv`
 4. Crear un archivo `requirements.txt`
 5. Pegar la siguiente línea y substituir en donde sea necesario
-   ```
-   miModulo[dev] @ git+https://git@github.com/langheran/TESE2022.git@main#subdirectory=paquete_python
-   ```
+    ```
+    miModulo[dev] @ git+https://git@github.com/langheran/TESE2022.git@main#subdirectory=paquete_python
+    ```
 6. Ejecutar `pip install -r requirements.txt`
 7. También es posible instalar este requerimiento con `pip`
-   ```
-   pip install git+https://git@github.com/langheran/TESE2022.git@main#subdirectory=paquete_python
-   ```
+    ```
+    pip install git+https://git@github.com/langheran/TESE2022.git@main#subdirectory=paquete_python
+    ```
 8. Verificar que el paquete se haya instalado correctamente
+   1. En una terminal ejecutar el comando 
+    ```
+    hola-tese --busqueda "Rubén"
+    ```
+   2. El resultado debe ser
+    ```
+    {'Nombre': 'Rubén', 'Apellido': 'Raya', 'Intereses': 'Amazon Alexa'}
+    ```
