@@ -36,13 +36,17 @@ Lo vamos a hacer local. Para esto necesitas instalar:
 - [vscode](https://code.visualstudio.com/download)
 - [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - [git](https://github.com/git-guides/install-git)
-- instalar `pip install virtualenv`
+- instalar `virtual env`
+    ```
+    pip install virtualenv
+    ```
   - opcionalmente activar el ambiente `miniconda` o trabajar en el ambiente `(base)`
     ```
     conda create --name tese
     conda activate tese
     ```
-- Descargar el repo localmente con el comando `git clone https://github.com/langheran/TESE2022.git`
+- Descargar el repo localmente con el comando 
+    ```git clone https://github.com/langheran/TESE2022.git```
 
 Si estás en windows, compilaremos nuestro módulo en C y usaremos algo de la librería `<windows.h>` por lo tanto necesitas tener este requerimiento también.
 
@@ -54,7 +58,10 @@ Si estás en windows, compilaremos nuestro módulo en C y usaremos algo de la li
 
 Cómo usar este paquete:
 
-1. Instalar `virtualenv` con el comando `virtualenv venv`
+1. Crear `virtualenv` con el comando 
+    ```
+    virtualenv venv
+    ```
 2. Activar el virtual env con `call .\venv\Scripts\activate.bat` o `source ./venv/bin/activate`
 3. Construir con el comando `python setup.py build`
 4. Instalar el paquete con `python setup.py install` o con `pip install .[dev] --force-reinstall`
