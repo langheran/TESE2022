@@ -1,4 +1,20 @@
-# Empaquetado y Extensión de módulo en Python
+# Introducción a Python, Pandas y Jupyter
+
+## Introducción a Pandas
+
+Estos son los cheatsheets recomendados para `Python`, `pandas`, `matplotlib`. 
+
+- Python
+  - https://github.com/gto76/python-cheatsheet
+- Pandas
+  - [Pandas_Cheat_Sheet.pdf](./docs/Pandas_Cheat_Sheet.pdf)
+- Matplotlib
+  - [matplotlib-cheatsheets.pdf](./docs/matplotlib-cheatsheets.pdf)
+  - [handout-beginner.pdf](./docs/handout-beginner.pdf)
+  - [handout-intermediate.pdf](./docs/handout-intermediate.pdf)
+  - [handout-tips.pdf](./docs/handout-tips.pdf)
+
+## Empaquetado y Extensión de módulo en Python
 
 Un proyecto mínimo para llamar código en C y distribuir un paquete Python.
 
@@ -8,6 +24,7 @@ Cómo usar este paquete:
 2. Activar el virtual env con `call .\venv\Scripts\activate.bat` o `source ./venv/bin/activate`
 3. Construir con el comando `python setup.py build`
 4. Instalar el paquete con `python setup.py install` o con `pip install .[dev] --force-reinstall`
+   1. Estas pruebas se encuentran en el [Jupyter Interactive](./test.py) que abriremos en `vscode`
 
 Una vez que el paquete ha sido creado, es posible usarlo dentro de otro módulo. Para ello haremos lo siguiente.
 
