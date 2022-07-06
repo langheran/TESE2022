@@ -22,6 +22,8 @@ A continuación por favor abrir el siguiente notebook para una breve introducci�
 <img src="https://www.tensorflow.org/images/colab_logo_32px.png">Abrir en Google Colab</a></td>
 </table>
 </p>
+<br>
+<br>
 
 ## Empaquetado y Extensión de módulo en Python
 
