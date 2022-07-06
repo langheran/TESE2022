@@ -10,8 +10,9 @@
 
 | Tiempo  | Contenido                                                                                                                                                                                    |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 15 mins | [1. Introducción](https://docs.google.com/presentation/d/e/2PACX-1vQtHHDqQQltagK2XLVUPHEtTO5p0R-gU6MmWScdarflz9z4V8GfYV40vg1sq6Gps4s5nZ_iLFJxV-rl/embed?start=false&loop=false&delayms=3000) |
-| 30 mins | [2. Taller](taller.ipynb)                                                                                                                                                                    |
+| 15 mins | [0. Introducción a Python, Pandas y Jupyter](./paquete_python/README.md) |
+| 15 mins | [1. Introducción a BigQuery](https://docs.google.com/presentation/d/e/2PACX-1vQtHHDqQQltagK2XLVUPHEtTO5p0R-gU6MmWScdarflz9z4V8GfYV40vg1sq6Gps4s5nZ_iLFJxV-rl/embed?start=false&loop=false&delayms=3000) |
+| 30 mins | [2. Taller BigQuery](taller.ipynb)                                                                                                                                                                    |
 | 10 mins | 3. Preguntas                                                                                                                                                                                 |
 
 ## 1. Introducción
