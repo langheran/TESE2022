@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "CMakeLists.txt": "cmake",
+        "*.cu": "cpp",
+        "*.beamer": "markdown",
+        "windows.h": "c"
+    }
+}
