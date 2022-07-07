@@ -12,9 +12,17 @@ except:
 %sx python setup.py build
 
 # %%
-# También podemos crear un wheel para nuestra plataforma con el siguiente comando
-
+# También podemos crear un wheel (built distribution) para nuestra plataforma con el siguiente comando
+# https://realpython.com/python-wheels/#building-a-platform-wheel-macos-and-windows
+%sx pip install wheel
 %sx python setup.py -q sdist bdist_wheel
+
+# %%
+# Lista los paquetes generados
+
+%ls dist
+# {dist}-{version}(-{build})?-{python}-{abi}-{platform}.whl
+# https://realpython.com/python-wheels/#what-is-a-python-wheel
 
 # %%
 # Reinstalamos el módulo

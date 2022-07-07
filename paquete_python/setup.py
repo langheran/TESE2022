@@ -38,6 +38,14 @@ setup(
         "Click",
         "pandas",
     ],
+    setup_requires=[
+        'wheel'
+    ],
+    options={
+        "bdist_wheel":{
+            "universal": True
+        }
+    },
     entry_points='''
         [console_scripts]
         hola-tese=miModulo.CommandLineInterface:cli
