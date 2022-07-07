@@ -78,6 +78,7 @@ Cómo usar este paquete:
 | [./src/PythonInterface/main.py](./src/PythonInterface/main.py)                   | Clase que lleva a cabo la lógica en el paquete Python                    |
 | [./src/__init__.py](./src/__init__.py)                                           | Especificar la versión del paquete                                       |
 | [./test.py](./test.py)                                                           | Python Interactive Notebook para probar el paquete                       |
+| [./build](./build)                                                               | Carpeta que se genera al compilar el paquete                             |
 
 ### Instrucciones para usar el paquete
 
