@@ -61,6 +61,7 @@ Cómo usar este paquete:
 3. Construir con el comando `python setup.py build`
 4. Instalar el paquete con `python setup.py install` o con `pip install .[dev] --force-reinstall`
    1. Estas pruebas se encuentran en el [Jupyter Interactive](./test.py) que abriremos en [vscode](http://code.visualstudio.com/docs/python/jupyter-support-py)
+5. Opcionalmente puedes subir tu paquete al _test server_ usando estas [instrucciones oficiales](https://packaging.python.org/en/latest/tutorials/packaging-projects/#uploading-the-distribution-archives)
 
 ### Instrucciones para usar el paquete
 
