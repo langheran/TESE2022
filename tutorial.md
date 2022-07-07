@@ -30,7 +30,7 @@ pip3 install -r requirements.txt
 
 Ahora nos logueamos a gcloud con el siguiente comando desde `cloudshell` y hacemos click en `Autorizar`.
 
-```
+```sh
 gcloud auth login
 ```
 
