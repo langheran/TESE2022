@@ -81,6 +81,8 @@ Cómo usar este paquete:
 | [./src/__init__.py](./src/__init__.py)                                           | Especificar la versión del paquete                                       |
 | [./test.py](./test.py)                                                           | Python Interactive Notebook para probar el paquete                       |
 | [./build](./build)                                                               | Carpeta que se genera al compilar el paquete                             |
+| [./dist](./dist)                                                                 | Carpeta que guarda el paquete generado                                   |
+| [./wheels](./wheels)                                                             | Carpeta que guarda el paquete en el repo                                 |
 
 ### Instrucciones para usar el paquete
 
