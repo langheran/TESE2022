@@ -1,4 +1,4 @@
-# Introducción al desarrollo formal en Python
+# Introducción al desarrollo de paquetes en Python
 
 ## Trucos para desarrollar más rápido
 
