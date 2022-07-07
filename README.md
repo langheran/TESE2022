@@ -21,8 +21,18 @@
 
 ## 2. Taller BigQuery
 
-[![Abrir en Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/langheran/TESE2022&tutorial=tutorial.md&cloudshell_open_in_editor=taller.ipynb&cloudshell_workspace=.&cloudshell_git_branch=main&ephemeral=true)
+Para este taller necesitas crear primero una [cuenta](http://support.google.com/mail/answer/56256?hl=en) gratuita de Google o accesar con la tuya. Eso lo puedes hacer [aquí](http://support.google.com/mail/answer/56256?hl=en). 
+
+Con la nueva cuenta que creamos, abrir el modo incognito de chrome accesar a http://google.com/account para loguearnos.
+
+Luego abrimos este link ahí para entrar a Cloud Shell.
+
+[![Abrir en Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/langheran/TESE2022&tutorial=tutorial.md&cloudshell_git_branch=main&ephemeral=true)
 
 Al abrir la ventana del `Cloud Shell` hacer click en `Trust repo` y seguir el tutorial que se abre. 
 
 <img src="https://github.com/langheran/TESE2022/raw/main/images/trust_repo.png" data-canonical-src="https://github.com/langheran/TESE2022/raw/main/images/trust_repo.png" width="500" />
+
+Dado que en modo incognito las cookies están deshabilitadas, abrimos el editor en una nueva ventana.
+
+![nueva_ventana](https://github.com/langheran/TESE2022/raw/main/images/nueva_ventana.png)

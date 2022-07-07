@@ -28,6 +28,18 @@ pip3 install -r requirements.txt
 
 **Tip**: Haz click en el botón `Copiar en Cloud Shell` que se encuentra en la esquina superior derecha de la sección de código y presiona `Enter` para ejecutar los comandos de este tutorial.
 
+Ahora nos logueamos a gcloud con el siguiente comando desde `cloudshell` y hacemos click en `Autorizar`.
+
+```
+gcloud auth login
+```
+
+[![autorizar](https://github.com/langheran/TESE2022/raw/main/images/autorizar_gcloud.png)](https://www.TESE.ndscognitivelabs.com/)
+
+Y dado que en modo incognito las cookies están deshabilitadas, abrimos el editor en una nueva ventana.
+
+![nueva_ventana](https://github.com/langheran/TESE2022/raw/main/images/nueva_ventana.png)
+
 ## Abre el laboratorio
 
 A continuación, abre el laboratorio que se encuentra aquí <walkthrough-editor-open-file filePath="TESE2022/taller.ipynb">taller.ipynb</walkthrough-editor-open-file>.
