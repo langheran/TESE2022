@@ -2,7 +2,7 @@
 
 ## Introducción
 
-[![NDS](https://github.com/langheran/TESE2022/raw/main/images/nds.png)](https://ndscognitivelabs.com/) [![TESE](https://github.com/langheran/TESE2022/raw/main/images/TESE_logo400.webp)](https://www.TESE.ndscognitivelabs.com/)
+[![NDS](https://github.com/langheran/TESE2022/raw/main/images/nds.png)](https://ndscognitivelabs.com/) [![TESE](https://github.com/langheran/TESE2022/raw/main/images/logo.png)](https://www.facebook.com/SMITEIMYT)
 
 Este tutorial ilustra los siguientes conceptos.
 

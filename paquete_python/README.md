@@ -1,6 +1,6 @@
-# Introducción a Python, Pandas y Jupyter
+# Introducción al desarrollo formal en Python
 
-## Introducción a Pandas
+## Trucos para desarrollar más rápido
 
 Estos son los cheatsheets recomendados para `Python`, `pandas`, `matplotlib`. 
 
@@ -14,26 +14,18 @@ Estos son los cheatsheets recomendados para `Python`, `pandas`, `matplotlib`.
   - [handout-intermediate.pdf](./docs/handout-intermediate.pdf)
   - [handout-tips.pdf](./docs/handout-tips.pdf)
 
-A continuación por favor abrir el siguiente notebook para una breve introducción a Jupyter.
-
-<p>
-<table class="tfo-notebook-buttons" align="left">
-<td><a target="_blank" href="https://colab.research.google.com/github/langheran/TESE2022/blob/main/intro.ipynb">
-<img src="https://www.tensorflow.org/images/colab_logo_32px.png">Abrir en Google Colab</a></td>
-</table>
-</p>
-<br>
-<br>
+También se recomienda modificar los [snippets](command:workbench.action.openSnippets) para `markdown` y `python`.
 
 ## Empaquetado y Extensión de módulo en Python
 
-Como ya conocemos Python, podemos hacer proyecto mínimo para llamar código en C y distribuir un paquete.
+Asumiendo que ya conocemos Python, podemos hacer proyecto mínimo para llamar código en C y distribuir un paquete.
 
 ### Requerimientos
 
 Lo vamos a hacer local. Para esto necesitas instalar:
 
 - [vscode](https://code.visualstudio.com/download)
+  - habilitar [Python](vscode:extension/ms-python.python)
 - [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - [git](https://github.com/git-guides/install-git)
 - instalar `virtual env`
@@ -46,13 +38,16 @@ Lo vamos a hacer local. Para esto necesitas instalar:
     conda activate tese
     ```
 - Descargar el repo localmente con el comando 
-    ```git clone https://github.com/langheran/TESE2022.git```
+    ```
+    git clone https://github.com/langheran/TESE2022.git
+    ```
 
 Si estás en windows, compilaremos nuestro módulo en C y usaremos algo de la librería `<windows.h>` por lo tanto necesitas tener este requerimiento también.
 
 - [Build Tools for Visual Studio](http://download.microsoft.com/download/5/F/7/5F7ACAEB-8363-451F-9425-68A90F98B238/visualcppbuildtools_full.exe).
 - Verifica que desde la ventana que vas a hacer el `python setup.py build` puedas ver el archivo `cl.exe`, por ejemplo el mío está en `C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe`, ya sea entrando desde la consola de developer o agregando ese path al %PATH%. Ahorita no te preocupes si no la tienes, explicaré más de esto adelante.
 - También es recomendable instalar otros plugins para `vscode` que vienen [aquí](https://code.visualstudio.com/docs/cpp/config-msvc#_prerequisites)
+  - En especial [cpptools](vscode:extension/ms-vscode.cpptools)
 
 ### Instrucciones para crear el paquete
 
@@ -93,7 +88,7 @@ Una vez que el paquete ha sido creado, es posible usarlo dentro de otro módulo.
     ```
     {'Nombre': 'Rubén', 'Apellido': 'Raya', 'Intereses': 'Amazon Alexa'}
     ```
-   3. Si está en windows también puedes ejecutar el siguiente comando
+   3. Si estás en windows también puedes ejecutar el siguiente comando
     ```
     hola-tese --msgbox "Hola TESE"
     ```
