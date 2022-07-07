@@ -28,7 +28,7 @@ pip3 install -r requirements.txt
 
 **Tip**: Haz click en el botón `Copiar en Cloud Shell` que se encuentra en la esquina superior derecha de la sección de código y presiona `Enter` para ejecutar los comandos de este tutorial.
 
-Y dado que en modo incognito las cookies están deshabilitadas, abrimos el editor en una nueva ventana.
+Si estamos corriendo en modo incognito las cookies están deshabilitadas, entonces necesitamos abrimos el editor en una nueva ventana y abrir `taller.ipynb`.
 
 ![nueva_ventana](https://github.com/langheran/TESE2022/raw/main/images/nueva_ventana.png)
 
@@ -52,7 +52,7 @@ Una vez que termine de cargar la página y puedas ejecutar las primeras celdas c
 
 Es posible que te aparezca esta pantalla al estar creando el proyecto, en dado caso, haz click en `AUTORIZAR`.
 
-[![autorizar](https://github.com/langheran/TESE2022/raw/main/images/autorizar_gcloud.png)](https://www.TESE.ndscognitivelabs.com/)
+![autorizar](https://github.com/langheran/TESE2022/raw/main/images/autorizar_gcloud.png)
 
 ## Conclusión
 
