@@ -9,6 +9,8 @@ init_path = convert_path('src/__init__.py')
 with open(init_path) as init_file:
     exec(init_file.read(), main_ns)
 
+# https://docs.python.org/3/distutils/setupscript.html
+
 setup(
     author="Nisim.Hurst",
     author_email="nhurst@ndscognitivelabs.com",
