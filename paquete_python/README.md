@@ -18,7 +18,9 @@ También se recomienda modificar los [snippets](command:workbench.action.openSni
 
 ## Empaquetado y Extensión de módulo en Python
 
-Asumiendo que ya conocemos Python, podemos hacer proyecto mínimo para llamar código en C y distribuir un paquete.
+Asumiendo que ya conocemos Python, podemos hacer proyecto mínimo para llamar código en C y distribuir un paquete (source distribution).
+
+Es posible crear también distribuciones que no dependen del compilador. Para más información ver [wheels](https://realpython.com/python-wheels/).
 
 ### Requerimientos
 

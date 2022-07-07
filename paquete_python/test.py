@@ -12,6 +12,11 @@ except:
 %sx python setup.py build
 
 # %%
+# También podemos crear un wheel para nuestra plataforma con el siguiente comando
+
+%sx python setup.py -q sdist bdist_wheel
+
+# %%
 # Reinstalamos el módulo
 
 %sx pip install .[dev]
