@@ -63,6 +63,22 @@ Cómo usar este paquete:
    1. Estas pruebas se encuentran en el [Jupyter Interactive](./test.py) que abriremos en [vscode](http://code.visualstudio.com/docs/python/jupyter-support-py)
 5. Opcionalmente puedes subir tu paquete al _test server_ usando estas [instrucciones oficiales](https://packaging.python.org/en/latest/tutorials/packaging-projects/#uploading-the-distribution-archives)
 
+### Estructura de archivos
+
+| file                                                                             | description                                                              |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [./README.md](./README.md)                                                       | Instructivo                                                              |
+| [./setup.py](./setup.py)                                                         | Archivo principal usado por `distutils` para construir el paquete        |
+| [./src/CInterface/test.c](./src/CInterface/test.c)                               | Entrada para el módulo de extensión en C                                 |
+| [./src/CInterface/message_box.h](./src/CInterface/message_box.h)                 | Función en C para desplegar un MessageBox con parámetros de Python       |
+| [./src/CommandLineInterface/__init__.py](./src/CommandLineInterface/__init__.py) | Definición de los imports de la herramienta de consola.                  |
+| [./src/CommandLineInterface/main.py](./src/CommandLineInterface/main.py)         | Definición de parámetros y funciones a usar en la herramienta de consola |
+| [./src/PythonInterface/__init__.py](./src/PythonInterface/__init__.py)           | Definición de los imports del paquete en Python                          |
+| [./src/PythonInterface/data/alumnos.csv](./src/PythonInterface/data/alumnos.csv) | Datos a usar en el paquete Python                                        |
+| [./src/PythonInterface/main.py](./src/PythonInterface/main.py)                   | Clase que lleva a cabo la lógica en el paquete Python                    |
+| [./src/__init__.py](./src/__init__.py)                                           | Especificar la versión del paquete                                       |
+| [./test.py](./test.py)                                                           | Python Interactive Notebook para probar el paquete                       |
+
 ### Instrucciones para usar el paquete
 
 Una vez que el paquete ha sido creado, es posible usarlo dentro de otro módulo. Para ello haremos lo siguiente.
