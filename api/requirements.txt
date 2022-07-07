@@ -1,2 +1,9 @@
-Flask==1.0.1
-gunicorn==19.7.1
+Flask==2.0.1
+flask-cors
+Flask-RESTful
+gunicorn
+pandas
+python-dotenv
+google-auth
+google-cloud-bigquery
+db-dtypes
