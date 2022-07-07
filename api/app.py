@@ -1,3 +1,4 @@
+# %%
 import json
 import os
 from dotenv import load_dotenv, find_dotenv
@@ -15,7 +16,7 @@ from flask import (
 from google.oauth2 import service_account
 from google.cloud import bigquery
 
-# the json credentials stored as env variable
+# %%
 credentials_file = 'google-credentials.json'
 json_str = os.environ.get('GOOGLE_CREDENTIALS')
 json_data = json.loads(json_str)
@@ -24,12 +25,11 @@ json_filepath = credentials_file
 if not os.path.exists(json_filepath):
     with open(json_filepath, 'w', encoding='utf-8') as fp:
         json.dump(json_data, fp, indent=4, ensure_ascii=False)
-# project name
+# %%
 GCP_PROJECT = os.environ.get('GCP_PROJECT')
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credentials_file
 
-# generate json - if there are errors here remove newlines in .env
-# the private_key needs to replace \n parsed as string literal with escaped newlines
+# %%
 credentials = service_account.Credentials.from_service_account_file(
     credentials_file,
 )
@@ -42,7 +42,6 @@ bq_client = bigquery.Client(
 # bq_client.query(sql).to_dataframe()
 
 # %%
-# 
 
 app = Flask(__name__)
 
