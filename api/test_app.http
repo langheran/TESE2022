@@ -1,0 +1,12 @@
+###
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Content-Type: application/json
+Content-Length: 442
+
+{
+   "is_male": true,
+    "mother_age": 28,
+    "plurality": "1",
+    "gestation_weeks": 38
+}

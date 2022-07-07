@@ -62,7 +62,7 @@ def index():
               {obj['gestation_weeks']} AS gestation_weeks
         ))
     '''
-    result = bq_client.query(sql).to_dataframe().to_dict('records')
+    result = bq_client.query(sql).to_dataframe().to_dict('records')[0]
     return jsonify(result), 200
 
 if __name__ == '__main__':
