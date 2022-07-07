@@ -1,5 +1,5 @@
 # Taller de Aprendizaje Automático en GCP con BigQuery
-<h3>Congreso Nacional de Proyectos de Investigación e Innovación Tecnológica y Robótica 2022</h3>
+<h4>Congreso Nacional de Proyectos de Investigación e Innovación Tecnológica y Robótica 2022</h4>
 
 [![NDS](https://github.com/langheran/TESE2022/raw/main/images/nds.png)](https://ndscognitivelabs.com/) <a href="https://www.facebook.com/SMITEIMYT"><img src="https://github.com/langheran/TESE2022/raw/main/images/logo.png" width="200"></a>
 
