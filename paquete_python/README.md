@@ -30,7 +30,7 @@ Lo vamos a hacer local. Para esto necesitas instalar:
   - habilitar [Python](vscode:extension/ms-python.python)
 - [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - [git](https://github.com/git-guides/install-git)
-- instalar `virtual env`
+- instalar `virtualenv venv`
     ```
     pip install virtualenv
     ```
